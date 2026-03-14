@@ -1,0 +1,19 @@
+{
+  "name": "latency-toy",
+  "version": "0.1.0",
+  "description": "A tiny open-source CLI toy to measure endpoint latency and uptime",
+  "type": "module",
+  "bin": {
+    "latency-toy": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "latency",
+    "uptime",
+    "toy"
+  ],
+  "license": "MIT"
+}
